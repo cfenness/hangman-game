@@ -3,14 +3,10 @@ html{
     -ms-text-size-adjust: 100%;
     height: 100%;
     margin: 0;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Arial';
 }
 body{
-    background: #c1c1c1;
-    background: -webkit-linear-gradient(#c1c1c1, white, #c1c1c1);
-    background: -o-linear-gradient(#c1c1c1, white, #c1c1c1);
-    background: -moz-linear-gradient(#c1c1c1, white, #c1c1c1);
-    background: linear-gradient(#c1c1c1, white, #c1c1c1);
+    background-color: light-blue;
 }
 a{
     color: #b10000;
@@ -123,31 +119,19 @@ body, html, #category, #category1, #category2, #phrases, #movies, #songs, #chall
     }
     #phrases{
         background: #000081;
-        background: -webkit-linear-gradient(left, #000081, white);
-        background: -o-linear-gradient(left, #000081, white);
-        background: -moz-linear-gradient(left, #000081, white);
-        background: linear-gradient(to right, #000081, white);
+        
     }
     #movies{
         background: #147b14;
-        background: -webkit-linear-gradient(left, white, #147b14);
-        background: -o-linear-gradient(right, white, #147b14);
-        background: -moz-linear-gradient(right, white, #147b14);
-        background: linear-gradient(to right, white, #147b14);
+        
     }
     #songs{
         background: #bc7a00;
-        background: -webkit-linear-gradient(left, #bc7a00, white);
-        background: -o-linear-gradient(left, #bc7a00, white);
-        background: -moz-linear-gradient(left, #bc7a00, white);
-        background: linear-gradient(to right, #bc7a00, white);
+        
     }
     #challenge{
         background: #b10000;
-        background: -webkit-linear-gradient(left, white, #b10000);
-        background: -o-linear-gradient(right, white, #b10000);
-        background: -moz-linear-gradient(right, white, #b10000);
-        background: linear-gradient(to right, white, #b10000);
+        
     }
 #multiPage{
     display: none;
@@ -199,10 +183,10 @@ body, html, #category, #category1, #category2, #phrases, #movies, #songs, #chall
         border-radius: 25px;
         cursor: pointer;
     }
-#gamePage{
-    display: none;
-    text-align: center;
-}
+    #gamePage{
+        display: none;
+        text-align: center;
+    }
     #categoryName{
         width: 100%;
         margin: 20px auto 0px auto;

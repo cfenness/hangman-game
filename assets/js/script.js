@@ -4,8 +4,8 @@ var numWrong = 0;
 var numRight = 0;
 var phraseLength = 0;
 var numChar = 0;
-var phrases = ["Early bird gets the worm", "Read between the lines", "I can eat a horse", "Twenty-four seven", "Cat got your tounge", "One in one million", "I beg to differ", "Easier said than done", "Add insult to injury", "Don't cry over spilled milk", "Curiosity killed the cat", "Two peas in a pod", "That's the last straw", "Piece of cake", "Speak of the devil", "Go the whole nine yards", "An eye for an eye", "Hit the hay", "Stab someone in the back", "Quit cold turkey", "Cut to the chase", "Best of both worlds", "Kill two birds with one stone", "Break a leg", "Hit the nail on the head", "Kick the bucket"];     
-var movies = ["Frankly, my dear, I don't give a damn", "May the Force be with you", "Titanic", "After all this time? Always.", "Life is like a box of chocolates", "To infinity and beyond", "I'll be back", "Wax on, wax off", "I'm going to make him an offer he can't refuse", "Want to know how I got these scars?", "Citizen Kane", "Team Edward", "No, I am your father", "Do or do not. There is no try.", "Do you want to build a snowman?", "Hakuna Matata", "Go ahead, make my day", "Bond. James Bond.", "You're going to need a bigger boat", "You talkin' to me?", "Here's Johnny!", "The hills are alive!", "Toto, I have a feeling we're not in Kansas anymore", "Welcome to Jurassic Park", "Say hello to my little friend!", "Run Forest Run!"];
+var phrases = ["Wild Goose Chase", "Green-Eyed Monster", "Pure as the Driven Show", "Seen Better Days", "Off with His Head", "Forever a Day", "Good Riddance", "Fair Play", "Lie Low", "It's Greek to Me", "As Good Luck would have it", "You've got to be cruel to be Kind", "Heart of Gold", "Kill with Kindness", "Live Long Day", "The Game is Afoot", "A Different Kettle of Fish", "A Fish out of Water", "Early Bird Catches the Worm", "Game is Afoot", "Game of two Halves", "Take the Cake", "Taken aback", "Tall Story", "Take the Upper Hand", "Talk of the Devil"];     
+var movies = ["City Lights", "Bonnie and Clyde", "American Graffiti", "Apocalypse Now", "Rocky", "Mr Smith Goes to Washington", "The Deer Hunter", "The Treasure of the Sierra Madre", "The Wild Bunch", "Annie Hall", "Modern Times", "The Godfather", "Giant", "High Noon", "Platoon", "To Kill A Mockingbird", "Fargo", "It Happened One Night", "Duck Soup", "Midnight Cowboy", "Mutiny on the Bounty", "The Best Years of Our Lives", "Frankenstein", "Double Indemnity", "Easy Rider", "Doctor Zhivago", "Patton", "North By Northwest", "The Jazz Singer", "West Side Story", "My Fair Lady", "Rear Window", "A Place in the Sun", "King Kong", "The Apartment", "The Birth of a Nation", "GoodFellas", "A Streetcar Named Desire", "Pulp Fiction", "A Clockwork Orange", "The Searchers", "Taxi Driver", "Bringing Up Baby", "Jaws", "Unforgiven", "Snow White and the Seven Dwarfs", "Guess Whos Coming to Dinner", "Butch Cassidy and the Sundance Kid", "Yankee Doodle Dandy"];
 var songs = ["I came in like a wrecking ball", "Yesterday all my troubles seemed so far away", "Work, work, work, work, work", "Just a small town girl", "I still haven't found what I'm looking for", "Annie are you OK?", "Nah nah nah nah nah nah nah, nah nah nah nah, hey Jude", "Is this the real life? Is this just fantasy?", "We don't need no education", "Have you ever seen the rain?", "She's got eyes of the bluest skys", "So close, no matter how far", "I don't want to miss a thing", "Take my hand, we'll make it, I swear", "That's me in the corner", "A mulatto, an albino, a mosquito, my libido", "You've been thunderstruck", "Another one bites the dust", "Eye of the tiger", "B-B-B-Bennie and the Jets", "Sing us a song you're the piano man", "Hello darkness my old friend", "Somewhere over the rainbow blue birds fly", "Don't worry about a thing", "Imagine there's no heaven", "Can you feel the love tonight?"];
 var challenges = ["A"];
 
@@ -987,10 +987,4 @@ function reset(){
     else{
         challenge();
     }
-}
-
-function video(){
-    document.getElementById('gamePage').style.display = "none";
-    document.getElementById('videoPage').style.display = "block";
-    document.getElementById('home1').style.display = "block";
 }
